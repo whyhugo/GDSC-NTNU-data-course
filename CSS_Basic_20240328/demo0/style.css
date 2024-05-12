@@ -1,0 +1,19 @@
+.grid-container{
+	display: grid;
+	grid-template-rows: repeat(2, 15fr) auto;
+	grid-template-columns: 10rem 10rem 10rem auto;
+}
+
+/* other style */
+*{
+	box-sizing: border-box;
+}
+
+.grid-container{
+	width: 100%;
+	height: 100%;
+	&, > div{
+		border: 2px solid #21d1a8;
+	}
+}
+
